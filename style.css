@@ -1,0 +1,224 @@
+:root{
+    --cor1: #1E1E1E;
+    --cor2: #121212;
+    --cor3: #2C2C2C;
+    --cor4: #5C3CFF;
+}
+
+*{
+    font-family: "Raleway",sans-serif;
+}
+.all-container{
+    margin: 0px 16px;
+    color: #ffff;
+}
+input{
+    all: unset;
+}
+body{
+    background-color: #121212;
+    margin: 0;
+}
+
+a{
+ all: unset;
+ cursor: pointer;
+}
+ul{
+    all: unset;
+    list-style: none;
+}
+.list-item{
+    font-weight: bold;
+    font-size: .9em;
+}
+h1{
+    font-weight: bolder;
+    font-size: .9em;
+}
+.about-item{
+    border-radius: 20px;
+    background-color:#1E1E1E ;
+    padding: 15px;
+}
+.info-item p{
+    font-size: .8em;
+    color: rgb(172, 172, 172);
+    }
+.img{
+width: 98px;
+height: 98px;
+margin-bottom: 5px;
+}
+.about-item{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+.about-item p {
+    color: rgb(172, 172, 172);
+    font-size: .8em;
+    font-weight: 500;
+}
+.info-item h2{
+    font-size: 1.5em;
+}
+.skill-item{
+    background-color: var(--cor3);
+    height: 114px;
+    width: 155px;
+}
+.fa-brands,.fa-solid{
+font-size: 40px;
+color: var(--cor4);
+}
+.skill-container h3{
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    
+}
+.sh-container{
+    margin-top: 24px;
+}
+
+.skill-item i{
+    padding: 10px;
+}
+.item-hobbie{
+    background-color: var(--cor3);
+    height: 114px;
+    width: 155px;
+   
+    font-size: .9em;
+    font-weight: bold;
+}
+.hobbie-text{
+    font-size: 1.8em;
+}
+.icon-photo{
+    width: 40px;
+    height: 40px;
+}
+.formacao-container{
+    background-color: var(--cor3);
+    width: 100%;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+  border-radius: 20px;
+  flex-direction: column;
+  
+}
+.formacao-container h3{
+    font-size: 2em;
+    margin: 15px;
+}
+.formacao-container img{
+    width: 160px;
+    height: 50px;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(24, 24, 24);
+}
+.contat-container{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+
+}
+.contato-texto{
+    font-size: 1.8em;
+    font-weight: bolder;
+}
+
+
+
+
+
+.formularioContato { 
+    max-width:600px; 
+    height:auto; 
+    float:none; 
+    margin:auto; 
+    padding:1em; 
+    margin-bottom:1em; 
+    background:var(--cor4); 
+    box-shadow: 1px 0px 1.2px 0px #ccc; 
+    position:relative; 
+}
+.formularioContato:before { 
+    width:0; 
+    height:0; 
+    
+    border-bottom-color:#fff; 
+    content:""; 
+    position:absolute; 
+    left:6%; 
+    top:-4.5%; 
+    margin-top:-4px; 
+    margin-left:6px; 
+    z-index:2;
+}
+.formularioContato label  { 
+    float:left; 
+    width:100%; 
+    margin-bottom:1.2em; 
+}
+.formularioContato label span {
+    width: 100%;
+    float: left;
+    color: #999;
+    margin-bottom: 6px;
+    font-family:"Raleway",sans-serif;
+}
+.formularioContato label input  { 
+    font-size:1em; 
+    color:#555; 
+    font-family:"Raleway",sans-serif; 
+    outline:none; 
+    border:1px #dee5ed solid; 
+    border-radius:4px; 
+    padding:0.6em; 
+    transition: 0.3s;  
+}
+.formularioContato label select { 
+    font-size:1em; 
+    color:#555; 
+    border:1px #dee5ed solid; 
+    border-radius:4px; 
+    padding:0.6em; 
+    outline:none; 
+    transition: 0.3s;  
+}
+.formularioContato label textarea { 
+    font-size:1em; 
+    color:#555; 
+    border:1px #dee5ed solid; 
+    border-radius:4px; 
+    padding:0.6em; 
+    outline:none;
+    transition: 0.3s;   
+}
+.formularioContato label input:focus    { box-shadow:0 0 5px 0px rgb(178,216,231); border:1px rgb(37,174,230) solid; color:rgb(37,174,230);}
+.formularioContato label select:focus   { box-shadow:0 0 5px 0px rgb(178,216,231); border:1px rgb(37,174,230) solid; }
+.formularioContato label textarea:focus { box-shadow:0 0 5px 0px rgb(178,216,231); border:1px rgb(37,174,230) solid; color:rgb(37,174,230);}
+.formularioContato button.btn-envia { 
+    background-color:rgb(37,174,230); 
+    width:100%; display:block; 
+    margin:auto; cursor:pointer; 
+    border-radius:4px;  
+    border:0; 
+    padding:0.8em 0em; 
+    color:#fff; 
+    font-size:1.3em; 
+    font-family:"Raleway",sans-serif; 
+    text-align: center;
+    transition: 0.3s;   
+}
+.formularioContato button.btn-envia:hover { 
+    background-color:#333; 
+}

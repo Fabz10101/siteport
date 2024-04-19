@@ -1,0 +1,130 @@
+*{
+    font-size: 1em ;
+    
+}
+header{
+    height: 70px;
+}
+.nav-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    
+}
+.all-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.list-container{
+    display: flex;
+    align-items: center;
+    
+}
+.list-item:nth-child(1),.list-item:nth-child(2),.list-item:nth-child(3),.list-item:nth-child(4),.list-item:nth-child(5){
+    display: none;
+}
+.info-container{
+    text-wrap: wrap;
+}
+
+
+
+.info-container .info-item{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.links-item-container{
+    display: flex;
+    gap: 7px;
+}
+.links-container{
+    font-size: .8em;
+    font-weight: bold;
+}
+.fa-solid{
+font-size: 12px;
+}
+
+.info-item{
+    gap: 10px;
+}
+
+.skill-item-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px 16px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: center;
+    
+}
+.skill-item{
+display: flex;
+align-items: flex-end;
+}
+.skill-item .fa-solid{
+    font-size: 40px;
+}
+
+.skilll-item .icon-photoshop{
+    display: flex;
+    align-items: flex-end;
+    width: 130px;
+    height: 50px;
+}
+.skill-text{
+display: flex;
+justify-content: center;
+}
+.skill-container{
+    display: flex;
+    flex-direction: column;
+   width: 100%;
+   justify-content: center;
+}
+.hobbie-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.item-hobbie-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 16px;
+    justify-content: center;
+}
+.hobbie-text{
+    display: flex;
+    justify-content: center;
+    margin: 16px 0px;
+}
+.item-hobbie{
+    display: flex;
+    flex-wrap: wrap;
+    
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+.item-hobbie > .item-icon{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+}
